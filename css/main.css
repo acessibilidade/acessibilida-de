@@ -1,0 +1,179 @@
+/* Geral */
+html { height: 100%; }
+body {
+  color: #fff; font-size: 1.2rem; font-family: 'Noto Sans JP', sans-serif; padding: 0 0 7rem 0;
+  background: linear-gradient(-45deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);
+	background-size: 600% 600%;
+	-webkit-animation: Gradient 12s ease infinite;
+	-moz-animation: Gradient 12s ease infinite;
+	animation: Gradient 12s ease infinite;
+}
+@-webkit-keyframes Gradient {
+	0% { background-position: 0% 50% }
+	50% { background-position: 100% 50% }
+	100% { background-position: 0% 50% }
+}
+@-moz-keyframes Gradient {
+	0% { background-position: 0% 50% }
+	50% { background-position: 100% 50% }
+	100% { background-position: 0% 50% }
+}
+@keyframes Gradient {
+	0% { background-position: 0% 50% }
+	50% { background-position: 100% 50% }
+	100% { background-position: 0% 50% }
+}
+
+/* Config */
+.sr-only { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.s-no { display: none; }
+.txt-center { text-align: center!important; }
+
+/* Main */
+main { margin-top: 6rem; }
+.row { margin: 0!important; }
+
+.logo { width: 60%; height: auto; margin-bottom: 2rem; }
+.logo .logo-a { fill:#fff; }
+.logo .logo-b { fill:none; stroke:#fff; stroke-miterlimit:10; stroke-width:0.75px; }
+
+a {
+  color: #fff; text-decoration: underline; padding: 1px;;
+  outline-offset: .5rem;
+  transition: outline-offset .2s linear;
+}
+a:hover, a:focus {
+  color: #111; background-color: #fff; text-decoration: none;
+  outline: 2px dashed #fff; outline-offset: .150rem;
+}
+a span.externo { position: absolute; top: -9999px; left: -9999px; }
+a i.tiny { vertical-align: -.2rem; margin-left: .2rem; }
+
+p { margin: 0 0 .5rem 0; line-height: 1.7rem; }
+p.destaque { margin: 4rem 0 0 0; font-size: 2rem; }
+strong { font-weight: 700; }
+
+h1 { color: #fff; font-size: 4rem; font-weight: 700; margin: 2rem 0 1rem 0; }
+h2 { color: #fff; font-size: 2rem; font-weight: 700; margin: 1.5rem 0 .5rem 0; }
+h3 { color: #fff; font-size: 1.6rem; font-weight: 700; margin: 1.4rem 0 .5rem 0; }
+
+/* Forms */
+.box-form { background: rgba(256, 256, 256, .1); border-radius: 5rem; width: 80%; margin: auto; padding: .3rem 0 1rem 0; }
+
+fieldset, legend { width: 100%; border: none; padding: 0; margin: 0; }
+
+.email-disclaimer { font-size: 1.1rem; }
+.form-cadastro { margin-top: 1rem; }
+.form-cadastro label { color: #fff; font-size: 1.4rem; font-weight: 500; }
+.form-cadastro input {
+  color: #111;
+  border: 2px solid #111!important;
+  background: #efefef!important;
+  border-radius: .6rem!important;
+  margin: 0 0 .5rem 0!important; padding: .8rem!important;
+  width: 30rem!important; height: auto!important;
+}
+.form-cadastro input:focus { border: 6px solid #333!important; box-shadow: none!important; }
+
+.form-cadastro .btn-form {
+  color: #fff!important;
+  background: #111!important;
+  padding: .5rem!important;
+  width: 15rem!important; height: auto!important;
+  outline-offset: .5rem;
+  transition: outline-offset .2s linear;
+}
+.form-cadastro .btn-form:hover, .form-cadastro .btn-form:focus {
+  color: #111!important;
+  background: #ffb700!important;
+  border: 2px solid #111!important;
+  outline: 2px dashed #fff; outline-offset: .150rem;
+}
+
+/* Sections */
+section[id=contato] { margin-top: 6rem; }
+
+/* Footer */
+footer { color: #111; background: #fff; position: fixed; bottom: 0; width: 100%; height: 3rem; }
+footer a { color: #111; }
+footer a:hover, footer a:focus {
+  color: #111; background-color: none; text-decoration: none;
+  outline: 2px dashed #111; outline-offset: .150rem;
+}
+footer p { margin-top: .6rem; }
+
+/* Screen Size */
+@media only screen and (max-width: 992px) {
+  .container { width: 80%; }
+  h1 { color: #fff; font-size: 3rem; font-weight: 700; margin: 2rem 0 1rem 0; }
+  h2 { color: #fff; font-size: 1.3rem; font-weight: 700; margin: 1.2rem 0 .5rem 0; }
+}
+
+@media only screen and (max-width: 768px) {
+  .container { width: 85%; }
+  body { font-size: 1.2rem; }
+  h1 { color: #fff; font-size: 2.5rem; font-weight: 700; margin: 2.2rem 0 1rem 0; }
+  h2 { color: #fff; font-size: 1.2rem; font-weight: 700; margin: 1.2rem 0 .5rem 0; }
+  p.destaque { margin: 1rem 0 0 0; font-size: 1.2rem; }
+  .box-form { width: 95%; border-radius: 2rem; }
+}
+
+@media only screen and (max-width: 576px) {
+  .container { width: 90%; }
+  body { font-size: 1rem; }
+  .logo { width: 90%; margin-bottom: 1rem; } 
+  h1 { color: #fff; font-size: 1.5rem; font-weight: 700; margin: 1.5rem 0 1rem 0; }
+  h2 { color: #fff; font-size: 1.1rem; font-weight: 700; margin: 1.1rem 0 .5rem 0; }
+  p.destaque { margin: 1rem 0 0 0; font-size: 1rem; }
+
+  .box-form { border-radius: 2rem; padding: .3rem 2.5rem 1rem 2.5rem; }
+  .email-disclaimer { font-size: .8rem; }
+  .form-cadastro { margin-top: .6rem; }
+  .form-cadastro label { font-size: 1.1rem; }
+  .form-cadastro input {
+    margin: 0 0 .2rem 0!important; padding: .4rem!important;
+    width: 16rem!important; height: auto!important;
+  }
+  .form-cadastro input:focus { border: 5px solid #333!important; }
+  .form-cadastro .btn-form { padding: .3rem!important; width: 10rem!important; }
+  footer { height: 4.2rem; }
+  footer p { font-size: 1rem; }
+
+  section[id=contato] { margin-top: 3rem; }
+}
+
+/* User Prefers */
+@media (prefers-reduced-motion) {
+  body { background: #EF4E7B; }
+}
+
+/* Print */
+@media print {
+  *, *:before, *:after, *:first-letter, *:first-line {
+    background: transparent !important; color: #000 !important; box-shadow: none !important; text-shadow: none !important; }
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after { content: ""; }
+  
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+  
+  .no-print, .no-print * { display: none!important; }
+  .print-largura { flex: 0 0 100%!important; max-width: 100%!important; }
+  .print-largura h1 br { display: none!important; }
+
+  .logo { width: 60%; height: auto; margin-bottom: 2rem; }
+  .logo .logo-a { fill:#000; }
+  .logo .logo-b { fill:none; stroke:#000; stroke-miterlimit:10; stroke-width:0.75px; }
+  h1 { font-size: 1.3rem; }
+  p, p.destaque { font-size: .9rem; }
+  footer p { font-size: .7rem; }
+  a span.externo, a i.tiny { display: none; }
+}
+

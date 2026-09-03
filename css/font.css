@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/MaterialIcons-Regular.eot"); /* For IE6-8 */
+  src: local("Material Icons"),
+       local("MaterialIcons-Regular"),
+       url("../font/MaterialIcons-Regular.woff2") format("woff2"),
+       url("../font/MaterialIcons-Regular.woff") format("woff"),
+       url("../font/MaterialIcons-Regular.ttf") format("truetype");
+}
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.atkinson-normal {
+  font-family: "Atkinson Normal";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../atkinson/Atkinson-Hyperlegible-Regular-102.eot"); /* For IE6-8 */
+  src: local("Atkinson Normal"),
+       local("Atkinson-Normal"),
+       url("../atkinson/Atkinson-Hyperlegible-Regular-102a.woff2") format("woff2"),
+       url("../atkinson/Atkinson-Hyperlegible-Regular-102.woff") format("woff"),
+       url("../atkinson/Atkinson-Hyperlegible-Regular-102.ttf") format("truetype");
+}
+.atkinson-bold {
+  font-family: "Atkinson Bold";
+  font-style: bold;
+  font-weight: 700;
+  src: url("../atkinson/Atkinson-Hyperlegible-Bold-102.eot"); /* For IE6-8 */
+  src: local("Atkinson Bold"),
+       local("Atkinson-Bold"),
+       url("../atkinson/Atkinson-Hyperlegible-Bold-102a.woff2") format("woff2"),
+       url("../atkinson/Atkinson-Hyperlegible-Bold-102.woff") format("woff"),
+       url("../atkinson/Atkinson-Hyperlegible-Bold-102.ttf") format("truetype");
+}
+.atkinson-italic {
+  font-family: "Atkinson Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../atkinson/Atkinson-Hyperlegible-Italic-102.eot"); /* For IE6-8 */
+  src: local("Atkinson Italic"),
+       local("Atkinson-Italic"),
+       url("../atkinson/Atkinson-Hyperlegible-Italic-102a.woff2") format("woff2"),
+       url("../atkinson/Atkinson-Hyperlegible-Italic-102.woff") format("woff"),
+       url("../atkinson/Atkinson-Hyperlegible-Italic-102.ttf") format("truetype");
+}
+.atkinson-bold-italic {
+  font-family: "Atkinson Bold-Italic";
+  src: url("../atkinson/Atkinson-Hyperlegible-BoldItalic-102.eot"); /* For IE6-8 */
+  src: local("Atkinson Bold-Italic"),
+       local("Atkinson-Bold-Italic"),
+       url("../atkinson/Atkinson-Hyperlegible-BoldItalic-102a.woff2") format("woff2"),
+       url("../atkinson/Atkinson-Hyperlegible-BoldItalic-102.woff") format("woff"),
+       url("../atkinson/Atkinson-Hyperlegible-BoldItalic-102.ttf") format("truetype");
+}

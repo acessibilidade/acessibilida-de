@@ -1,0 +1,44 @@
+A imagem é composta de um título: "Tabela comparativa de padrões relacionados para
+contraste mínimo aceitável segundo WCAG" e uma tabela com as seguintes caracerísticas:
+
+- 5 colunas e 4 linhas;
+- A primeira coluna exibe os níveis de conformidade do WCAG com os valores: "qualquer nível", AA e AAA;
+- A secunda coluna exibe a relação mínima de contraste com os valores: 3 para 1, 4.5 para 1 e 7 para 1;
+- A terceira coluna apresenta o tamanho mínimo de fonte com os valores: 18pt e 14pt bold e as duas linhas seguintes com o valor "qualquer tamanho";
+- A quarta coluna apresenta os níveis de acuidade visual do método "snellen" com os valores 20/20, 20/40 e 20/80;
+- A quinta e última coluna apresenta também níveis de acuidade, porém na métrica decimal com os valores: 1, 0,5 e 0,25.
+
+Logo abaixo da tabela há informações adicionais descritas da seguinte forma:
+
+Título: Compreenda melhor as questões sobre contraste:
+
+- Caso atinja o tamanho mínimo de fonte (18pt normal ou 14pt bold), o nível de
+contraste poderá ser de 3:1 (isso atende a qualquer nível WCAG);
+
+- Se a sua proposta for atender o nível AA, então é obrigatório ter uma relação
+mínima de contraste de 4.5:1, exceto nos casos em que ocorrer o uso de texto
+ampliado (18pt normal ou 14pt bold);
+
+- A relação de contraste pode variar entre 1:1 (pior contraste) e 21:1 (melhor),
+onde o primeiro número representa a cor mais clara e o segundo número
+representa a cor mais escura;
+
+- A análise da deficiência de percepção de cor é baseada em um contraste de
+luminescência (L1:L2). Entenda que é praticamente impossível atender todas
+as situações ao se planejar o melhor contraste, porém a ideia em atingir os
+níveis mínimos é atender a maior quantidade possíveis de usuários;
+
+- 3:1 (20/20) é a relação de contraste mínimo aceitável para pessoas sem
+problemas de visão;
+
+- 4.5:1 (20/40) está associado a uma perda de sensibilidade leve/moderada
+de contraste e é bem comum em pessoas acima de 70/80 anos;
+
+- 7:1 (20/80) está associado a uma perda de sensibilidade moderada/alta que
+exige a utilização de TA (tecnologia assistiva). A relação de contraste de 7:1 
+facilita o acesso a informação para algumas pessoas independentemente
+do uso de TA;
+
+- Acuidade visual é a capacidade de um indivíduo em distinguir diferentes
+objetos de acordo com sua distância e refração. “Snellen” e “Decimal” são
+duas formas (dentre outras) de se distinguir a acuidade visual de um indivíduo.
